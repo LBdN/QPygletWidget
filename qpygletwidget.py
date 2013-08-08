@@ -1,5 +1,5 @@
 """
-This module contains the definiton of a pyglet widget for a 
+This module contains the definiton of a pyglet widget for a
 PySide application: QPygletWidget
 
 It also provides a basic usage example.
@@ -9,7 +9,7 @@ import pyglet
 pyglet.options['shadow_window'] = False
 pyglet.options['debug_gl'] = False
 from pyglet import gl
-from PySide import QtCore, QtGui, QtOpenGL
+from PyQt4 import QtCore, QtGui, QtOpenGL
 
 
 class ObjectSpace(object):
